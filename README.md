@@ -1,73 +1,94 @@
-# Welcome to your Lovable project
+# 🧭 Project Compass: The Future of FYP Management
 
-## Project info
+> **Streamlining Academic Excellence at the University of Sialkot**
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Welcome to **Project Compass**, the definitive platform designed to revolutionize how Final Year Projects (FYP) are managed, tracked, and delivered. Built with cutting-edge web technologies, Project Compass bridges the gap between students, supervisors, and administrators, creating a seamless ecosystem for academic innovation.
 
-## How can I edit this code?
+![Project Banner](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80) 
+*(Example banner placeholder - replace with actual screenshot)*
 
-There are several ways of editing your application.
+## 🚀 Why Project Compass?
 
-**Use Lovable**
+Managing FYPs used to be a chaos of spreadsheets, lost emails, and missed deadlines. **No more.**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Project Compass brings order to the chaos with a unified, role-based dashboard system:
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🎓 For Students
+- **Group Formation**: Find teammates and form groups effortlessly.
+- **Supervisor Matching**: Browse supervisor profiles and request mentorship based on expertise.
+- **Progress Tracking**: Visualize your project timeline and submit deliverables on time.
+- **Real-time Feedback**: Get instant feedback on your proposals and documentation.
 
-**Use your preferred IDE**
+### 👨‍🏫 For Supervisors
+- **Centralized Supervision**: Manage all your student groups from a single view.
+- **Automated Workflow**: Receive, review, and approve proposals with one click.
+- **Milestone Management**: Track group progress against academic calendars.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🛡️ For Administrators
+- **Total Oversight**: Monitor the health of all FYP batches.
+- **Role Management**: Control access for staff and students with secure, audited permissions.
+- **Data-Driven Insights**: Generate reports on project completion and performance.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠️ Built With Modern Tech
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+We didn't just build a portal; we built a high-performance application using the best tools in the industry.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+| Category | Technology |
+|----------|------------|
+| **Frontend** | [React 18](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/) |
+| **Build Tool** | [Vite](https://vitejs.dev/) (Lightning fast HMR) |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/) |
+| **Backend** | [Firebase](https://firebase.google.com/) (Auth, Firestore, Hosting) |
+| **State** | [TanStack Query](https://tanstack.com/query/latest) |
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🏁 Getting Started
 
-**Edit a file directly in GitHub**
+Ready to explore? Follow these steps to get the project running locally.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Prerequisites
+- Node.js (v18+)
+- npm or bun
 
-**Use GitHub Codespaces**
+### Installation
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1.  **Clone the Repository**
+    ```bash
+    git clone https://github.com/mrfool05/FYP-Portal.git
+    cd FYP-Portal
+    ```
 
-## What technologies are used for this project?
+2.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
 
-This project is built with:
+3.  **Environment Setup**
+    Create a `.env` file in the root directory. You'll need Firebase credentials:
+    ```env
+    VITE_FIREBASE_API_KEY=your_api_key
+    VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+    VITE_FIREBASE_PROJECT_ID=your_project_id
+    VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+    VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+    VITE_FIREBASE_APP_ID=your_app_id
+    ```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+4.  **Run the App**
+    ```bash
+    npm run dev
+    ```
+    Open `http://localhost:8080` to see it in action!
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🤝 Contributing
 
-## Can I connect a custom domain to my Lovable project?
+This is a university project, but we welcome ideas! If you find a bug or have a suggestion, please open an issue or submit a pull request.
 
-Yes, you can!
+## 📄 License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Proprietary Software - Developed for the University of Sialkot.
